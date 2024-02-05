@@ -1,0 +1,58 @@
+.form-container {
+	max-width: 450px;
+	margin: auto;
+	padding: 20px;
+	background-color: rgb(195, 195, 196);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+button[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 8px;
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+
+input[type="file"]{
+    background-color: white;
+}
+button[type="submit"]{
+    background-color: rgb(48, 48, 241);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.8s ease;
+}
+button[type="submit"]:hover{
+    background-color: rgb(3, 3, 131);
+    color: white;
+}
+.error-message{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.circular-image-container{
+    margin-top: 15px;
+    background-color: white;
+}
+img{
+    width: 50%;
+    height: auto;
+}
